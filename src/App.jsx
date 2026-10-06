@@ -16,7 +16,7 @@ const Category = lazy(()=> import('./Pages/Category.jsx'))
       element:<Layout/>,
       children:[
         {
-      path:"/home",
+      path:"/",
       element:<Home />
     },
     {

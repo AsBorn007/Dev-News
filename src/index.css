@@ -5,3 +5,17 @@
 @theme {
   --font-body: "Georgia", sans-serif;
 }
+:root {
+  --bg: #0a0f1f;          /* main body */
+  --surface: #0f1629;     /* cards, navbar */
+  --surface-2: #151d36;   /* hover / inputs */
+  --border: #1f2a48;      /* card borders */
+}
+
+body {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(139, 92, 246, 0.18), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(227, 122, 249, 0.08), transparent);
+  background-attachment: fixed;
+}
